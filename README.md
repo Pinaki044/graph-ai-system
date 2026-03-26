@@ -76,3 +76,43 @@ Example:
 ---
 
 ## 📂 Project Structure
+
+backend/ graph_builder.py query_engine.py llm_interface.py llm_router.py
+
+frontend/ app.py graph_ui.py
+
+---
+
+## ⚙️ Setup Instructions
+
+bash
+pip install -r requirements.txt
+
+Add your API key in:
+
+backend/llm_router.py
+
+Run the app:
+
+streamlit run frontend/app.py
+
+
+---
+
+🎯 Future Improvements
+
+Full NL → SQL / Graph query translation
+
+Node highlighting based on query
+
+Conversation memory
+
+Better UI styling
+
+
+
+---
+
+📌 Conclusion
+
+This system demonstrates how LLMs can be combined with graph-based data modeling to enable intuitive, data-driven business insights through natural language queries.
